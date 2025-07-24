@@ -1,0 +1,12 @@
+# 核心功能不需要任何外部依赖
+# Python 3.6+ 标准库即可运行
+
+# 可选依赖 - 用于可视化
+matplotlib>=3.5.0  # 生成图表
+numpy>=1.21.0      # 数值计算支持
+
+# 安装可选依赖：
+# pip install -r requirements.txt
+
+# 或仅安装可视化功能：
+# pip install matplotlib numpy 
