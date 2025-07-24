@@ -1,6 +1,6 @@
-# Collapse理论与背包问题 - 学习指南
+# 🌌 NP-Complete项目：Collapse理论探索
 
-这是一个帮助理解Collapse理论及其在背包问题中应用的学习项目。
+> "当计算遇见物理，复杂性遇见简单性"
 
 ## 🌌 项目概述
 
@@ -11,43 +11,24 @@
 
 ## 📚 学习路径
 
-建议按以下顺序阅读：
+### 🎯 快速开始
+1. 运行 `python3 quickstart.py` - 5分钟了解核心概念
+2. 打开 `collapse_theory_exploration.ipynb` - 交互式探索完整理论
 
-### 1. [基础概念入门](docs/01-basic-concepts.md)
-- 什么是背包问题
-- 什么是NP-Complete
-- 传统动态规划解法
-- 为什么需要新的视角
+### 📖 深入学习
+按以下顺序阅读文档：
 
-### 2. [核心理论解释](docs/02-core-theory.md)
-- 自指完备系统
-- 熵增原理
-- Collapse过程
-- 从搜索到显化的范式转变
+1. **[基础概念](docs/01-basic-concepts.md)** - 什么是背包问题？什么是NP-Complete？
+2. **[核心理论](docs/02-core-theory.md)** - 理解Collapse理论的哲学基础
+3. **[数学工具](docs/03-math-tools.md)** - φ-trace编码和黄金比例的奥秘
+4. **[算法详解](docs/04-algorithm-explained.md)** - CollapseGPT算法的工作原理
+5. **[代码实现](docs/05-code-implementation.md)** - 完整的Python实现
+6. **[高级主题](docs/06-advanced-topics.md)** - P vs NP的新视角
+7. **[扩展应用](docs/07-collapse-applications.md)** - Collapse理论在其他问题上的应用
 
-### 3. [数学工具介绍](docs/03-math-tools.md)
-- Fibonacci数列与φ-trace编码
-- 黄金比例的出现
-- Collapse张力谱
-- 与黎曼猜想的联系
-
-### 4. [算法原理解析](docs/04-algorithm-explained.md)
-- CollapseGPT算法步骤
-- 为什么是O(n log n)
-- 近似比分析
-- 与动态规划的对比
-
-### 5. [代码实现与验证](docs/05-code-implementation.md)
-- 完整的Python实现
-- 实验设置
-- 性能测试
-- 结果分析
-
-### 6. [深入理解与扩展](docs/06-advanced-topics.md)
-- 对P vs NP问题的启示
-- 其他组合优化问题的应用
-- 量子计算的联系
-- 哲学意义
+### 🧪 交互式学习
+- **[Jupyter Notebook](collapse_theory_exploration.ipynb)** - 渐进式交互学习体验
+- **[应用探索Notebook](collapse_applications_exploration.ipynb)** - 探索Collapse理论的更多应用
 
 ## 🚀 快速开始
 
@@ -112,3 +93,14 @@ np-complete/
 ---
 
 *"当我们改变看待问题的方式，问题本身就改变了。"* 
+
+## 🌟 扩展应用
+
+Collapse理论不仅适用于背包问题，还可以应用于：
+
+- **旅行商问题 (TSP)** - 路径的自然流动
+- **图着色** - 颜色的量子坍缩
+- **SAT问题** - 真值的自然结晶
+- **蛋白质折叠** - 生命的计算过程
+- **神经网络训练** - 权重的自组织
+- 更多详见 [扩展应用文档](docs/07-collapse-applications.md) 
